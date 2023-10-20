@@ -17,13 +17,13 @@ public class HomePageTest {
 	}
 
 	
-//	@Test
-//	public void selectChennaiLocation() {
-//		driver.get("https://in.bookmyshow.com/");
-//		homePage = new HomePage(driver);
-//		Assert.assertEquals(homePage.clickChennaiLocation(),true);
-//		driver.close();
-//	}
+	@Test
+	public void selectChennaiLocation() {
+		driver.get("https://in.bookmyshow.com/");
+		homePage = new HomePage(driver);
+		Assert.assertEquals(homePage.clickChennaiLocation(),true);
+		driver.close();
+	}
 	
 	@Test
 	public void selectMovie() {
